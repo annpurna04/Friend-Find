@@ -1,0 +1,44 @@
+.card button{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 4px 3px 4px;
+    color:#ccc;
+}
+.del:hover{
+    transition: 0.2s;
+    border: 2px solid #f87171;
+    color: #dc2626;
+    background-color: #ff9d9d;
+}
+.card p strong{
+    color: black;
+}
+.card p{
+    color: grey;
+
+}
+
+.like {
+  padding: 6px 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.like:hover{
+    transition: 0.2s;
+     border:2px solid orange;
+     background-color: #fdeac3;
+}
+
+.like.favorited {
+    border: 1px solid rgb(255, 165, 0);
+  background-color: #fdeac3;
+  color: orangered;
+}
+
+
+
+

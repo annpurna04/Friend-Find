@@ -1,0 +1,138 @@
+  .container{
+    width: 350px;
+    margin: auto;
+    font-family: "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 45px 3px #e0e0e0;
+  }
+  .content-wrapper {
+  padding: 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+  .header {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 15px 12px 0px 0px;
+}
+.header h2 {
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+  .inputGroup{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    
+  }
+  
+  .inputGroup input{
+    width: 74%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    outline: none;
+  }
+  .inputGroup input[type=text]:focus {
+      border: 2px solid #2563eb;
+  }
+  .inputGroup button{
+    background-color: #4b83fc;
+    color: white;
+    border: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+  }
+  .inputGroup button:hover{
+    background-color: #2563eb;
+    cursor:pointer;
+  }
+  .friend-input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.friend-input.input-error {
+  border-color: #dc2626; /* Tailwind red-600 */
+  background-color: #fee2e2; /* Tailwind red-100 */
+}
+.error-message {
+  color: #dc2626;
+  margin: 0 0 6px 4px;
+  font-size: 12px;
+}
+  
+  .search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.searchInput {
+  width: 84%;
+  padding: 10px 10px 10px 36px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.searchInput:focus {
+  border: 2px solid #2563eb;
+  outline: none;
+}
+
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none; /* ensures clicks pass through */
+}
+
+
+ .card{
+    border: 1px solid #ddd;
+    border-radius:8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .card:hover{
+    box-shadow: 2px 4px #e7e6e6; 
+  }
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.pagination button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #e5e7eb;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.pagination button.active {
+  background-color: #2563eb;
+  color: white;
+}
+
