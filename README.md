@@ -75,12 +75,6 @@ Feel free to update the components or logic in the `src/` folder to make it your
 
 ---
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## 🙋‍♀️ Author
 
 Made with ❤️ by **Annpurna Gupta**
